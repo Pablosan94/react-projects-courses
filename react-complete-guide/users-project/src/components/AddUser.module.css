@@ -1,0 +1,32 @@
+.form {
+  background-color: rgb(151, 209, 226);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.form-control {
+  display: flex;
+  flex-flow: column;
+  margin: 0 0 1rem 0;
+}
+
+.form-control input {
+  border: 2px solid;
+  border-color: green;
+  border-radius: 4px;
+  background-color: rgb(136, 255, 152);
+}
+
+.form-control.invalid input {
+  border: 2px solid;
+  border-color: red;
+  border-radius: 4px;
+  background-color: rgb(255, 182, 174);
+}
+
+.form-control label {
+  color:hsla(0, 0%, 0%, 0.8);
+  margin-bottom: 0.25rem;
+  font-weight: 700;
+}
