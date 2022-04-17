@@ -1,0 +1,40 @@
+.header {
+  align-items: center;
+  display: flex;
+  font-size: 12px;
+  flex-direction: column;
+}
+
+.month-name {
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+}
+
+.day-names {
+  display: flex;
+  gap: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.day-names span {  
+  font-weight: 600;
+  text-align: center;
+  width: 48px;
+}
+
+.month {
+  margin-inline: 1rem;
+}
+
+.row {
+  display: flex; 
+  gap: 0.25rem;
+  margin: 0.25rem auto;
+  max-width: calc(48px * 5 + 1rem);
+}
+
+.current {
+  background-color: #0099ff22;
+  border-radius: 8px;
+  padding: 0 0.25rem;
+}

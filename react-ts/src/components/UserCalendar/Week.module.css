@@ -1,0 +1,26 @@
+.week {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.month-name {
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+}
+
+.day-names {
+  display: flex;
+  gap: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.day-names span {  
+  font-weight: 600;
+  text-align: center;
+  width: 48px;
+}
+
+.days {
+  display: flex;
+  gap: 0.25rem;
+}

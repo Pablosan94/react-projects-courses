@@ -1,0 +1,17 @@
+.user {
+  display: flex;
+}
+
+.avatar {
+  align-self: flex-end;
+  background-color: aqua;
+  margin-right: 1rem;
+  height: 48px;
+  width: 128px;
+}
+
+.weeks {
+  display: flex;
+  gap: 3rem;
+}
+

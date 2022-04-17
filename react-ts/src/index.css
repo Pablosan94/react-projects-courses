@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+[data-id="users"]
+  :not([data-id="user"]:first-child)
+  [data-id="weeks"]
+  [data-id="week"]
+  [data-id="days"]
+  div
+  [data-id="day-name"],
+[data-id="users"]
+  :not([data-id="user"]:first-child)
+  [data-id="weeks"]
+  [data-id="week"]
+  [data-id="days"]
+  div
+  [data-id="day-format"] {
+  display: none;
+}

@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.loading {
+  animation: loading-animation 1000ms ease-in-out infinite alternate-reverse;
+  border: 2px solid #09f;
+  border-radius: 50%;
+  height: 128px;
+  margin: 2.625rem 10rem;
+  width: 128px;
+}
